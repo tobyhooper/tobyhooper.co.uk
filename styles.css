@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+  background-color: #1f1f1f;
+  color: #ffffff; /* Make text white for better contrast */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #121212; /* Slightly darker footer background */
+}
+
+.github-button, .buymeacoffee-button {
+  display: inline-block; /* Allows button styling */
+  margin: 10px 0; /* Vertical spacing between buttons */
+  padding: 10px 20px;
+  color: #000000; /* Button text color */
+  background-color: #ffffff; /* Default background color */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Removes underline */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.github-button:hover {
+  background-color: #cccccc; /* Darker blue on hover */
+}
+
+.coffee-button {
+  background-color: #ffffff; /* Distinct orange for Buy Me a Coffee */
+}
+
+.buymeacoffee-button:hover {
+  background-color: #cccccc; /* Darker orange on hover */
+}
